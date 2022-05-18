@@ -1,21 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int* twoSum(int*, int, int, int* );
+
 int main(void)
 {
+	
   int i_data[] = {1,2,3,4,5};
   int i_numsSize =5;
   int i_target = 3;
   int *p_nums;
   int returnSize =2;
   
-  int * rv; /*  returnValues*/
+  int * rv; 
   p_nums = i_data;
   
   rv  =  twoSum(p_nums, i_numsSize, i_target, &returnSize);
   
-  printf("[  %d ,  %d   ]",  rv[0], rv[1]);
+  printf("[  %d ,  %d   ]  \n",  rv[0], rv[1]);
   free(rv);
+  
   system("pause");
   return 0;
 }
