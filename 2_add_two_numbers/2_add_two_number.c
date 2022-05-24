@@ -42,18 +42,19 @@ struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2)
     l_temp.next = NULL;
     struct ListNode *p_curr = &l_temp;
     int i_remainder = 0, i_sum=0;/* i_remainder is carry when over 10 of a sume.*/
+
     while (l1 != NULL || l2 != NULL || i_remainder != 0)
     {
         i_sum = i_remainder + (l1 == 0 ? 0 : l1->val) + (l2 == 0 ? 0 : l2->val);
         i_remainder = i_sum / 10;
         i_sum %= 10;
 
-        p_curr->next = malloc(sizeof(struct ListNode));/**/
-        p_curr->next->next = NULL;
+        p_curr->next = malloc(sizeof(struct ListNode));/*  */
+        p_curr->next->next = NULL;/* Setting next next is NULL*/
         p_curr->next->val = i_sum;
 
         /*There are move to nex node.*/
-        p_curr = p_curr->next;
+        p_curr = p_curr->next;/*Move next pointer*/
         l1 = (l1 == 0 ? 0 : l1->next);
         l2 = (l2 == 0 ? 0 : l2->next);
     }
