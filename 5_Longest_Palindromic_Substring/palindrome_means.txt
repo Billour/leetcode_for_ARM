@@ -1,0 +1,6 @@
+Make sure you understand what a palindrome means.
+
+A palindrome is a string which reads the same in both directions. 
+
+For example, SSS = "aba" is a palindrome, 
+SSS = "abc" is not.
