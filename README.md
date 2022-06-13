@@ -10,7 +10,7 @@ Environment:
 &nbsp;&nbsp;&nbsp;&nbsp; Ubuntu 18.04 LTS,  
 &nbsp;&nbsp;&nbsp;&nbsp; GCC 7.5,   
 &nbsp;&nbsp;&nbsp;&nbsp; NVIDIA jetson nano ARM(Advanced RISC Machine)   Cortex-A57 MPCore processor  
-&nbsp;&nbsp;&nbsp;&nbsp; Version:2022051001
+&nbsp;&nbsp;&nbsp;&nbsp; Version:2022
 <br/><br/>
 Author:Billour Ou(歐育溙)  
 ----------
