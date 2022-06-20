@@ -4,3 +4,9 @@ A palindrome is a string which reads the same in both directions.
 
 For example, SSS = "aba" is a palindrome, 
 SSS = "abc" is not.
+
+
+a word or group of words that is the same when you read it forwards from the beginning or backwards from the end
+回文（順讀和倒讀都一樣的詞、詩句等）
+"Refer" and "level" are palindromes.
+refer 和 level 是回文詞。
